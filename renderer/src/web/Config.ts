@@ -88,6 +88,7 @@ export function poeWebApi () {
       ? 'pathofexile.tw'
       : 'www.pathofexile.com'
     case 'ko': return 'poe.game.daum.net'
+    case 'de': return 'de.pathofexile.com'
   }
 }
 
@@ -109,7 +110,7 @@ export interface Config {
   logKeys: boolean
   accountName: string
   stashScroll: boolean
-  language: 'en' | 'ru' | 'cmn-Hant' | 'ko'
+  language: 'en' | 'ru' | 'cmn-Hant' | 'ko' | 'de'
   realm: 'pc-ggg' | 'pc-garena'
   widgets: widget.Widget[]
   fontSize: number
