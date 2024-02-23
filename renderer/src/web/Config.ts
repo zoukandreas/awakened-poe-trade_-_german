@@ -83,6 +83,7 @@ export function poeWebApi () {
   const { language, realm } = AppConfig()
   switch (language) {
     case 'en': return 'www.pathofexile.com'
+    case 'de': return 'de.pahtofexile.com'
     case 'ru': return 'ru.pathofexile.com'
     case 'cmn-Hant': return (realm === 'pc-garena')
       ? 'web.poe.garena.tw'
@@ -109,7 +110,7 @@ export interface Config {
   logKeys: boolean
   accountName: string
   stashScroll: boolean
-  language: 'en' | 'ru' | 'cmn-Hant' | 'ko'
+  language: 'en' | 'de' | 'ru' | 'cmn-Hant' | 'ko'
   realm: 'pc-ggg' | 'pc-garena'
   widgets: widget.Widget[]
   fontSize: number
