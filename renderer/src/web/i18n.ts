@@ -13,7 +13,8 @@ export async function init (lang: string) {
     missingWarn: false,
     messages: {
       // eslint-disable-next-line quote-props
-      'en': await (await fetch(`${import.meta.env.BASE_URL}data/en/app_i18n.json`)).json()
+      'en': await (await fetch(`${import.meta.env.BASE_URL}data/en/app_i18n.json`)).json(),
+      'de': await (await fetch(`${import.meta.env.BASE_URL}data/de/app_i18n.json`)).json()
     }
   })
   _global = plugin.global
