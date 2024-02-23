@@ -70,7 +70,7 @@ export default {
   CRAFTED_SUFFIX: 'Meister-Suffix-Modifikator',
   UNSCALABLE_VALUE: ' — Nicht skalierbarer Wert',
   CORRUPTED_IMPLICIT: 'Impliziter Modifikator (Verderbtheit)',
-  MODIFIER_INCREASED: /^(.+?)% Increased$/,  //ToDo
+  MODIFIER_INCREASED: /^(.+?)% [eE]rhöht$/,
   INCURSION_OPEN: 'Begehbare Räume:',
   INCURSION_OBSTRUCTED: 'Unzugängliche Räume:',
   EATER_IMPLICIT: /^Impliziter Modifikator des Weltenfressers \((?<rank>.+)\)$/,
@@ -95,13 +95,13 @@ export default {
   INCURSION_MODS: ["Guatelitzis", "Xopecs", "Topotantes", "Tacatis", "Matatls", 'von Matatl', "Citaqualotls", 'von Citaqualotl', 'von Tacati', 'von Guatelitzi', 'von Puhuarte'],
   FOIL_UNIQUE: 'Foil-Relikt',
   UNMODIFIABLE: 'Nicht modifizierbar',
-  // --- //ToDo
+  // ---
   CHAT_SYSTEM: /^: (?<body>.+)$/,
   CHAT_TRADE: /^\$(?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
   CHAT_GLOBAL: /^#(?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
   CHAT_PARTY: /^%(?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
   CHAT_GUILD: /^&(?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
-  CHAT_WHISPER_TO: /^@To (?<char_name>.+?): (?<body>.+)$/,
-  CHAT_WHISPER_FROM: /^@From (?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
-  CHAT_WEBTRADE_GEM: /^level (?<gem_lvl>\d+) (?<gem_qual>\d+)% (?<gem_name>.+)$/
+  CHAT_WHISPER_TO: /^@An (?<char_name>.+?): (?<body>.+)$/,
+  CHAT_WHISPER_FROM: /^@Von (?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
+  CHAT_WEBTRADE_GEM: /^Stufe (?<gem_lvl>\d+) (?<gem_qual>\d+)% (?<gem_name>.+)$/
 }
