@@ -88,7 +88,7 @@ export function poeWebApi () {
       ? 'pathofexile.tw'
       : 'www.pathofexile.com'
     case 'ko': return 'poe.game.daum.net'
-    case 'de': return 'www.pathofexile.com'
+    case 'de': return 'de.pathofexile.com'
   }
 }
 
