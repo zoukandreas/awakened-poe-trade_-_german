@@ -7,6 +7,7 @@ export let cv: any
 
 const langMap = new Map([
   ['en', 'eng'],
+  ['de', 'deu'],
   ['ru', 'rus'],
   // ['cmn-Hant', 'chi_tra'],
 ])
