@@ -13,6 +13,7 @@ export default {
   RARITY: 'Seltenheit: ',
   ITEM_CLASS: 'Gegenstandsklasse: ',
   ITEM_LEVEL: 'Gegenstandsstufe: ',
+  CORPSE_LEVEL: 'Leichenstufe: ',
   TALISMAN_TIER: 'Talisman-Level: ',
   GEM_LEVEL: 'Stufe: ',
   STACK_SIZE: 'Stapelgröße: ',
